@@ -1,5 +1,5 @@
 import express from 'express';
-import AuthRouter from './auth';
+import AuthRouter from './routes/auth.routes';
 import dotenv from 'dotenv';
 import sequelizeConnection from './db/config';
 
